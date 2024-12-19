@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+border: none;
+}
+
+.logo {
+    margin-right: 65px;
+
+    h2 {
+        font-size: 25px;
+        font-family: "Montserrat," , sans-serif;
+    }
+}
+
+.d-menu {
+    display: flex;
+    align-items: center;
+    p {
+        margin-left: 15px;
+        margin-right: 5px;
+        font-family: "Montserrat," , sans-serif;
+        
+    }
+}
+
+.actions {
+    display: flex;
+    margin-left:auto;
+    button {
+        height: 60px;
+        width: 62px;
+        position: relative;
+        background-color: transparent;
+        span {
+            position: absolute;
+            height: 18px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 18px;
+            padding: 0 6px;
+            display: inline-block;
+            background-color: orange;
+            color: white;
+            top: 10px;
+            right: 10px;
+            border-radius: 100px;
+        }
+    }
+}
